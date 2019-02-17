@@ -213,6 +213,18 @@ h6 {
   margin: 0 20px 20px 0;
   color: #fff;
 }
+.register_btn{
+  background: none;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  color: #007bff;
+}
+
+.register_btn:hover{
+   background:#007bff;
+  border-color: #fff;
+  color: #fff !important;
+}
 
 #intro .intro-info .btn-get-started {
   background: #007bff;
