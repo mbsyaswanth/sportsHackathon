@@ -595,8 +595,28 @@ h6 {
 
 /* timeline section
 ------------------------------ */
-#timeline{
-  background: wheat;
+#impd{
+  padding: 60px 0 40px 0;
+  background: #d7efca;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); 
+}
+
+#impd .box {
+  padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.flex-center{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 .line {
   background-color: #1D1D1D;
