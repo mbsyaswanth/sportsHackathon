@@ -490,7 +490,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #6c757d1f;
 }
 
 
@@ -597,7 +597,7 @@ h6 {
 ------------------------------ */
 #impd{
   padding: 60px 0 40px 0;
-  background: #d7efca;
+  background: #f8f9fa;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); 
 }
 
@@ -694,6 +694,26 @@ justify-content: center;
 .line .entries .entry:nth-child(2n) .title.big:before {
   -webkit-transform: translate(-8px, -50%);
           transform: translate(-8px, -50%);
+}
+
+/* Valuation process Section
+--------------------------------*/
+
+#vprocess{
+  padding: 60px 0 40px 0;
+  background: #6c757d2b;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); 
+}
+
+#vprocess .box {
+  padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Services Section
