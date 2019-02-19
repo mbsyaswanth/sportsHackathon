@@ -125,7 +125,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 90px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -136,7 +136,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 66px;
   padding: 10px 0;
 }
 
@@ -211,7 +211,8 @@ h6 {
 }
 
 .banner-contain{
-  padding-top:30px;
+  position: relative;
+  top:-70px;
 }
 
 .hackathon-dur{
@@ -227,6 +228,27 @@ h6 {
   width: 50%;
   float: left;
 
+}
+@media (max-width:700px) {
+  #intro .challange {
+    font-size:2rem;
+  }
+  /* #sport{
+    display:none;
+  }
+  #au{
+    display:none  !important;
+  } */
+  #nav-tro
+  {
+    width:unset !important;
+    padding-right: 5px;
+  }
+  .bg-sponser
+  {
+    top:10px;
+  }
+  
 }
 
 #intro .intro-info div {
@@ -633,13 +655,15 @@ h6 {
   line-height: 24px;
   font-size: 14px;
 }
-
+#about{
+  padding: 60px 0 40px 0;
+}
 /* timeline section
 ------------------------------ */
 #impd{
   padding: 60px 0 40px 0;
   background: #f8f9fa;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); 
+  /* box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);  */
 }
 
 #impd .box {
@@ -755,6 +779,13 @@ justify-content: center;
     background: #fff;
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
     transition: all 0.3s ease-in-out;
+}
+
+/* Registartion Section
+--------------------------------*/
+
+#registration{
+  padding: 60px 0 40px 0;
 }
 
 /* Services Section

@@ -39,14 +39,17 @@
   Header
   ============================-->
   <header id="header" class="fixed-top">
-    <div class="container">
-      <div class="logo float-left">
+      <div class="float-left flex-center" style="display:inline-block">
+          <img id="sport" src="img/sports.png" style="width:62px;height:45px" alt="">
+       </div>
+    <div id="nav-tro" class="container" style="display:inline-block;padding-left:0px;">
+      <div class="logo"  style="display:inline;padding-top:9px;" >
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#header"><span>sportTech</span></a></h1>
+        <h1 class="text-light" style="display:inline;"><a href="#header"><span>sportTech</span></a></h1>
         <!-- <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
-      <nav class="main-nav float-right d-none d-lg-block">
+      <nav class="main-nav d-none d-lg-block float-right" style="padding-right:2%;">
         <ul>
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -75,62 +78,56 @@
           </li> -->
           <li><a href="#contact">Contact Us</a></li>
           <li ><a href="#registration" class="register_btn scrollto" >Register</a></li>
+          <!-- <li><img  src="img/au.png"  class="img-fluid" style="display:inline;height:50px;width:55px;"alt=""></li> -->
         </ul>
       </nav><!-- .main-nav -->
-     
-    </div>
-  </header><!-- #header -->
+      
+      </div>
+      <img id="au"  src="img/au.png"  class="img-fluid" style="display:inline; height:48px ; width:52px ; position:relative;right:10px;"alt="">
+  </header>
+  <!-- #header -->
 
   <!--==========================
     Intro Section
   ============================-->
   <section id="intro" class="clearfix">
-    <div class="row">
-      <div class="col-2 flex-center"><img src="img/au.png" class="img-fluid" style="width:100px;height:100px" alt=""></div>
-      <div class="col-8 challange">SportTech challenge</div>
-      <div class="col-2 flex-center"><img src="img/sports.png" style="width:150px;height:90px" class="img-fluid" alt=""></div>
-    </div>
     
-    <div class="banner-contain">
-      <div class="row">
-         <div class="col-lg-8 col-sm-12 flex-center">
-           <div class="row flex-center" style="flex-direction:row;">
-              <div class=" col-12 bg-sponser">
-                  <div class="bigger-org">ANDHRA UNIVERSITY</div>
-                  <div class="smaller">IN ASSOCIATION WITH</div>
-                  <div class="bigger-org">SPORTS AUTHORITY OF ANDHRA PRADESH</div>
-              </div>
-            </div>
-            <div class="row flex-center" style="flex-direction:row;">
-              <!-- <div class="col-6 flex-center"><img src="img/au.png" class="img-fluid" style="width:100px;height:100px" alt=""></div>
-              
-              <div class="col-6 flex-center" ><img src="img/sports.png" style="width:150px;height:90px" class="img-fluid" alt=""></div> -->
-           </div>
-           <div class="row flex-center" style="flex-direction:row; padding-top:15px;">
-              <div class=" col-12 bg-sponser">
-                <div class="smaller">PRESENTS</div>
-                <div class="hackathon-dur">36 HOURS HACKATHON</div>
-                </div>
-           </div>
-         </div>
-         <div class="col-lg-4 col-sm-12">
-            <img src="img/hack_log.png"  class="img-fluid" alt="">
-         </div>
-          
-      </div>
-      
-      
-
-      <!-- <div class="intro-info">
-        <div>Sport Tech Challenge<br><span>A 36 hour Hackathon</span><br>at Andhra University <br><span>in association with</span><br>Sports Authority of Andhra Pradesh</div>
-        <div>
-          <a href="#about" class="btn-get-started scrollto">Learn More</a>
+     
+        <div class="challange flex-center">
+            SportTech Challenge
         </div>
-      </div> -->
+        <div class=" bg-sponser hackathon-dur">
+            
+            <img  src="img/36mod2.png" style="object-fit:contain; position:relative; top:-28px;" class="img-fluid" alt="">
+            </div>
+  
+     <!-- <div class="row flex-center" style="flex-direction:row;">
 
-    </div>
-  </section><!-- #intro -->
-
+     </div> -->
+         
+      
+        <div class="banner-contain">
+            <div class="row" style="margin-right:0px; margin-left:0px;">
+              <div class="col-lg-3 col-sm-12 flex-center">
+                  <img src="img/group.png" width=250px; class="img-fluid" alt="">
+              </div>
+               <div class="col-lg-6 col-sm-12 flex-center">
+                 <div class="row flex-center" style="flex-direction:row;">
+                    <div class=" col-12 bg-sponser">
+                        <div class="bigger-org">ANDHRA UNIVERSITY</div>
+                        <div class="smaller">IN ASSOCIATION WITH</div>
+                        <div class="bigger-org">SPORTS AUTHORITY OF ANDHRA PRADESH</div>
+                    </div>
+                  </div>
+                 
+               </div>
+               <div class="col-lg-3 col-sm-12  flex-center">
+                  <img src="img/hack_log.png" width=200px; class="img-fluid" alt="">
+               </div>
+              </div>
+          </div>
+    </section><!-- #intro -->
+  
   <main id="main">
 
     <!--==========================
@@ -341,7 +338,7 @@
 
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box" style="height:144px;">
-              <div class="icon"><i class="fas fa-users" style="color: #d6ff22; margin-left:5px; "></i></div>
+              <div class="icon"><i class="fas fa-users" style="color: #d6ff22; margin-left:5px;transform: scale(1,1); "></i></div>
               <h4 class="title" style="margin-left:40px"><a href="">Crowd Management</a></h4>
               <p class="description">Crowd Management system</p>
             </div>
@@ -882,7 +879,7 @@
       Contact Section
     ============================-->
     <section id="contact">
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="section-header">
           <h3>Contact Us</h3>
@@ -955,7 +952,7 @@
           <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Andhra University College of Engineering <br>
+              Andhra University College of Engineering(A) <br>
               Visakhapatnam, 530003<br>
               India <br>
               <strong>Phone:</strong> 8179845051<br>
@@ -980,7 +977,7 @@
       
       <div class="credits">
        
-        Designed by <a href="https://bootstrapmade.com/">Andhra University College of Engineering</a>
+        Designed by <a href="https://bootstrapmade.com/">Andhra University College of Engineering(A)</a>
       </div>
     </div>
   </footer><!-- #footer -->
