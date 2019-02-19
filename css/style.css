@@ -478,12 +478,12 @@ h6 {
 }
 
 .section-header p {
-  text-align: center;
+  text-align: justify;
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
   color: #556877;
-  width: 50%;
+  width: 75%;
 }
 
 /* Section with background
