@@ -575,7 +575,8 @@ h6 {
   align-items: center;
 }
 
-#objectives .about-container .icon-box .icon {
+#objectives .about-container .
+-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -773,6 +774,7 @@ justify-content: center;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
+  /* height:315px; */
 }
 
 #services .box:hover {
@@ -782,12 +784,14 @@ justify-content: center;
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  transform: scale(1,1);  
+  left: -5px;
   top: calc(50% - 32px);
 }
 
 #services .icon i {
   font-size: 64px;
+  transform: scale(1,1) !important; 
   line-height: 1;
   transition: 0.5s;
 }
@@ -809,7 +813,7 @@ justify-content: center;
 
 #services .description {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 50px;
   line-height: 24px;
   margin-bottom: 0;
 }
