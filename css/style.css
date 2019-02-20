@@ -179,7 +179,7 @@ h6 {
   position: relative;
   background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
-  padding: 120px 0 120px 0;
+  padding: 120px 0 0px 0;
 }
 
 #intro .challange {
@@ -218,12 +218,22 @@ h6 {
 }
 
 .hackathon-dur{
+  
+}
+.relative-bottom-1,.relative-bottom-2 
+{
+  position: relative;
+  bottom: 35px;
+}
+
+.date-contain , .venue-contain{
   display: flex;
-    justify-content: center;
-    color: yellow;
-    font-family:sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
+  justify-content: center;
+  color: yellow;
+  font-family:sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+
 }
 
 #intro .intro-info {
@@ -231,7 +241,44 @@ h6 {
   float: left;
 
 }
+.prize-2
+{
+  position: relative;bottom: 60px;left: 25%;
+}
+.prize-3
+{
+  position: relative;bottom: 60px;
+}
+.trophy{
+  bottom: 60px;
+  width: 140px;
+}
+
 @media (max-width:700px) {
+  .bigger-org{
+    
+      font-size: 1.2rem;
+  }
+  .relative-bottom-1
+  {
+bottom:unset;
+  }
+  .prize-2
+  {
+    position: unset;bottom: 20px;left: -35%;padding-right:0px;
+  }
+  .prize-3
+  {
+    position: unset;bottom: 216px;padding-left:0px;
+  }
+  .relative-bottom-2
+  {
+bottom:58px;
+  }
+  .trophy
+  {
+    width: 120px !important;
+  }
   #intro .challange {
     font-size:2rem;
   }
@@ -603,8 +650,7 @@ h6 {
   align-items: center;
 }
 
-#objectives .about-container .
--box .icon {
+#objectives .about-container .box .icon {
   float: left;
   background: #fff;
   width: 64px;

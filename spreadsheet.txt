@@ -1,0 +1,11 @@
+team-id
+=arrayformula( if( len(A2:A); "APST" & text(row(A2:A) - row(A2) + 1; "00000"); iferror(1/0) ) )
+
+candidate-id-1(if selcted 3)
+=arrayformula( if( row(A1:A) = 1; "ID number"; if( len(A1:E); "APSTP1" & text(row(A1:A) - row(A1) + 0; "00000"); iferror(1/0) ) ) )
+
+candidate-id-2(if selcted 3)
+=arrayformula( if( row(A1:A) = 1; "ID number"; if( len(A1:K); "APSTP2" & text(row(A1:A) - row(A1) + 0; "00000"); iferror(1/0) ) ) )
+
+candidate-id-3(if selcted 3)
+=arrayformula( if( row(A1:A) = 1; "ID number"; if( len(A1:Q); "APSTP3" & text(row(A1:A) - row(A1) + 0; "00000"); iferror(1/0) ) ) )
