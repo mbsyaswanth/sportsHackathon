@@ -123,6 +123,10 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.middle-prize{
+  position: relative;
+  bottom: 20px;
+}
 
 #header {
   height: 90px;
@@ -230,6 +234,10 @@ h6 {
 @media (max-width:700px) {
   #intro .challange {
     font-size:2rem;
+  }
+  .middle-prize{
+    position: static;
+    
   }
   /* #sport{
     display:none;
@@ -849,7 +857,7 @@ justify-content: center;
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #1c4fc3;
 }
 
 #why-us .section-header h3,
@@ -858,7 +866,7 @@ justify-content: center;
 }
 
 #why-us .card {
-  background: #00458f;
+  background: #1245a9;
   border-color: #00458f;
   border-radius: 10px;
   margin: 0 15px;
