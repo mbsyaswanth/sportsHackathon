@@ -145,7 +145,7 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -306,6 +306,13 @@ bottom:58px;
     top:10px;
   }
   
+}
+
+@media (max-width:1273px){
+  .d-lg-none
+  {
+    display:block !important;
+  }
 }
 
 #intro .intro-info div {
