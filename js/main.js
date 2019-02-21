@@ -27,9 +27,7 @@ $('.venobox').venobox({
   closeColor: '#fff'
 });
 
-// $(document).ready(function(){
-//   $('.venobox').venobox(); 
-// });
+
 
   // Back to top button
   $(window).scroll(function() {
