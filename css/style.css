@@ -307,6 +307,20 @@ bottom:58px;
   }
   
 }
+@media (min-width: 992px) and (max-width: 1038px)
+{
+.containe {
+    max-width:900px;
+}
+}
+@media (min-width: 768px) and (max-width: 798px)
+{
+  .containe {
+    max-width: 680px;
+}
+}
+
+
 @media (min-width:1274px){
  
   .d-lg-non{
