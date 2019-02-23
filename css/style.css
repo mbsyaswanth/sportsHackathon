@@ -307,11 +307,27 @@ bottom:58px;
   }
   
 }
+@media (min-width:1274px){
+ 
+  .d-lg-non{
+    display:none !important;
+    
+  }
+  .d-lg-no{
+    display:inline !important;
+  }
+}
 
 @media (max-width:1273px){
   .d-lg-none
   {
     display:block !important;
+  }
+  .d-lg-non{
+    display:inline !important;
+  }
+  .d-lg-no{
+    display:none !important;
   }
 }
 
