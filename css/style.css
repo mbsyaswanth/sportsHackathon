@@ -319,6 +319,13 @@ bottom:58px;
     max-width: 680px;
 }
 }
+@media (min-width: 701px) and (max-width: 991px)
+{
+  .head-adjust {
+   position: relative;;
+   top:1px;
+}
+}
 
 
 @media (min-width:1274px){
