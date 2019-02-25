@@ -3,7 +3,7 @@
 
   // Preloader (if the #preloader div exists)
   $(window).on('load', function () {
-    $('#myModal').modal('show');
+    // $('#myModal').modal('show');
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
         $(this).remove();
@@ -140,6 +140,7 @@ $('.venobox').venobox({
   });
 
 })(jQuery);
-// $(window).load(function(){        
-//   $('#myModal').modal('show');
-//    }); 
+$('.noti-box-close').on('click', function() {
+  // $('#noti-box').addClass("fadeIn");
+  $('#noti-box').fadeOut();
+})

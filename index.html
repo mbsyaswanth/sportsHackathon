@@ -11,6 +11,38 @@
   gtag('config', 'UA-134768445-1');
 </script>
 
+<style>
+.fixed-noti-box{
+  position:fixed;
+  z-index: 999;
+  bottom: 10px;
+  right:10px;
+  border:3px solid #9E9E9E;
+  border-radius: 15px;
+  width:400px;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+}
+.noti-box-close{
+  padding:5px;
+}
+.noti-heading{
+  padding: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.noti-head{
+  border-bottom: 1px solid grey;
+}
+.noti-body{
+  padding: 5px;
+}
+.noti-imp-txt{
+  font-weight: 500;
+  color: red;
+}
+</style>
+
   <meta charset="utf-8">
   <title>SportTech Hackathon</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -52,6 +84,8 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Noty CSS File -->
+  <link href="lib/noty/noty.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -160,6 +194,17 @@
               </div>
             </div>
         
+          </div>
+        </div>
+
+        <div class="fixed-noti-box animated slideInRight" id="noti-box">
+          <div class="noti-head">
+              <div class="noti-box-close close" ><i class="fa fa-times" aria-hidden="true"></i></div>
+              <div class="flex-center noti-heading "><span class="animated infinite tada delay-2s">Updates</span> </div>
+          </div>
+          <div class="noti-body">
+              <p>On participants request, program has been <span class="noti-imp-txt">rescheduled to 15<sup>th</sup> & 16<sup>th</sup> of March, 2019. </span> </p>
+              <p>Last date for <span class="noti-imp-txt"> registration extended upto 5<sup>th</sup> March, 2019.</span> </p>
           </div>
         </div>
      
@@ -1274,6 +1319,7 @@ There is no fee for the accommodation.
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/noty/noty.js" type="text/javascript"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
